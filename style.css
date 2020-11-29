@@ -1,0 +1,95 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app {
+    grid-gap: 8px;
+    height: 100%;
+    width: 100%;
+    font-family: 'Girassol', cursive;
+}
+
+#search {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 6px;
+    grid-gap: 6px;
+    font-size: 16px;
+    border-bottom: 1px solid black;
+}
+
+.title {
+    grid-row: 1;
+    grid-column: 1 / -1;
+    font-family: 'Girassol', cursive;
+    margin-top: -1rem;
+    font-size: 1.5rem;
+}
+
+.ear {
+    font-size: 3rem;
+}
+
+.name {
+    text-decoration: underline;
+}
+
+.opener {
+    font-size: 1.5rem;
+    margin-top: -2rem;
+}
+
+.search-bar {
+    grid-row: 2;
+    grid-column: 1 / -1;
+    margin-top: 1rem;
+}
+  
+#search fieldset label {
+    margin-bottom: .5em;
+    font-size: 1em;
+}
+  
+#search select {
+    padding: 4px;
+    border-radius: 8px;
+}
+  
+#search button {
+    max-height: 3rem;
+    margin-top: 1rem;
+}
+
+main {
+    margin-top: 2rem;
+}
+
+.flex {
+    margin-left: 2.5rem;
+}
+
+.card {
+    height: 34rem;
+    width: 40vw;
+    font-size: 1rem;
+    align-content: center;
+}
+
+img {
+    width: 100%;
+    max-height: 20rem;
+}
+
+#select-category {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.card-body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

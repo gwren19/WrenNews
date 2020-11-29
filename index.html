@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+        <link rel='stylesheet' type='text/css' href='./style.css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script defer src='./app.js'></script>
+        <script type='text/javascript' src='config.js'></script>
+    </head>
+    <body id='app'>
+        <form id='search'>
+            <div class='title'>
+            <h1 class='name'>
+                Wren News<i class='material-icons ear'>hearing</i>
+            </h1>
+            <p class='opener'>The news you need to hear!</p>
+            </div>
+            <fieldset class='search-bar'>
+                <label for="keywords">Search</label>
+                <input id="keywords" type="text" placeholder='I am looking for...' />
+            </fieldset>    
+            <fieldset>
+                <label for='select-category'>Category</label>
+                <select name='category' id='select-category'>
+                    <option value=''>Any</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label for="select-region">Region</label>
+                <select name="region" id="select-region">
+                  <option value=''>Any</option>
+                </select>
+            </fieldset>
+            <fieldset class='date-selector'>
+                <label for='select-start'>Start Date</label>
+                <input type='date' id='select-start'></input>  
+            </fieldset>
+            <fieldset class='date-selector'>
+                <label for='select-end'>End Date</label>
+                <input type='date' id='select-end'></input>
+            </fieldset>
+            <fieldset>
+                <label for='select-language'>Language</label>
+                <select name='language' id='select-language'>
+                  <option value=''>Any</option>
+                </select>  
+            </fieldset>
+            <button>SEARCH</button>
+        </form>
+        <main>
+            <div class='flex two'>
+            </div>
+        </main>
+    </body>
+</html>
